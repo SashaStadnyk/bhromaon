@@ -1,0 +1,31 @@
+.grand-spain {
+  background-image: url("./images/house.png");
+  height: 700px;
+}
+button {
+  background-color: #496bfe;
+  height: 60px;
+  width: 225px;
+  font-size: 30px;
+  color: white;
+}
+.button-h {
+  display: inline-block;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.377);
+}
+h2 {
+  font-family: "Aleo", "serif";
+}
+h1 {
+  font-family: "Aleo", "serif";
+}
+.madrid {
+  background-image: url("./images/madrid.png");
+  height: 700px;
+}
+
+.man {
+  background-image: url("./images/Rectangle_4142.png");
+  height: 700px;
+}
