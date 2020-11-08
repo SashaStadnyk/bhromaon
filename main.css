@@ -1,31 +1,123 @@
+body {
+  margin: 0;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .grand-spain {
   background-image: url("./images/house.png");
   height: 700px;
+  width: 1770px;
+  background-repeat: no-repeat;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  background-position: center;
+  background-size: cover;
 }
-button {
-  background-color: #496bfe;
+.click {
+  background-color: #5474fd;
   height: 60px;
   width: 225px;
   font-size: 30px;
   color: white;
 }
 .button-h {
-  display: inline-block;
   color: white;
-  background-color: rgba(0, 0, 0, 0.377);
+  background-color: #232323;
+  opacity: 0.9;
+  width: 540px;
+  height: 371px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 330px;
+  margin-top: 229px;
 }
-h2 {
+.grand {
   font-family: "Aleo", "serif";
+  font-weight: 300;
+  padding: 15px;
 }
-h1 {
+.spain {
   font-family: "Aleo", "serif";
+  margin: 0;
+  font-weight: 300;
+  padding: 15px;
 }
 .madrid {
   background-image: url("./images/madrid.png");
   height: 700px;
+  width: 1770px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-position: center;
+  background-size: cover;
+}
+.mountain {
+  display: block;
+  color: white;
+  background-color: #232323;
+  opacity: 0.9;
+  width: 540px;
+  height: 371px;
+  padding: 15px;
+  margin-right: 330px;
+  margin-bottom: 100px;
 }
 
 .man {
   background-image: url("./images/Rectangle_4142.png");
   height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  background-size: cover;
+  width: 1770px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tourist {
+  display: block;
+  color: white;
+  background-color: #232323;
+  opacity: 0.9;
+  width: 1115px;
+  height: 284px;
+  margin-right: 330px;
+  margin-top: 247px;
+  display: flex;
+}
+.foto {
+  display: flex;
+}
+.man-in-adidas {
+  color: white;
+  font-family: "Aleo", serif;
+  font-weight: 300;
+  text-align: center;
+}
+.but {
+  font-size: 17px;
+  font-family: "Aleo", "serif";
+  line-height: 30px;
+}
+.bottom {
+  width: 1770px;
+  height: 268px;
+  background-color: #232323;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.foot {
+  margin: 0px;
 }
