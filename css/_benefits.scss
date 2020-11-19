@@ -1,0 +1,47 @@
+.benefits {
+    @include sectionCommonStyles(row, space-evenly, center);
+    
+    background-image: url('../img/benefits-background.png');
+    font-family: $sectionMainFont;
+    height: 685px;
+
+    .benefits__left-block {
+        @include sectionCommonStyles(column, space-evenly, flex-start);
+        height: 60%;
+        
+        .benefits__left-block_title {
+            color: $headerMainColor;
+            font-size: 36px;
+            margin: 0;
+        }
+    
+        .benefits__left-block_description {
+            width: 530px;
+            color: $sectionBenefitsColor;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 1.6px;
+            opacity: 0.8;
+            margin: 0;
+        }
+    
+        .benefits__left-block_button {
+            @include buttonStyles;
+        }
+    }
+
+    .benefits__right-block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .benefits__right-block_img-1 {
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+        position: relative;
+        bottom: 5px;
+        left: -125px;
+    }
+    
+}

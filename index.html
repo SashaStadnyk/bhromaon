@@ -3,84 +3,143 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BHROMAON</title>
-    <link rel="stylesheet" href="./main.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Aleo:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-    />
+    <title>Bhromaon</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@300&display=swap" rel="stylesheet" />
   </head>
+
   <body>
+
     <div class="wrapper">
-      <div class="grand-spain">
-        <div class="button-h">
-          <h1 class="spain">SPAIN</h1>
-          <h2 class="grand">GRAND SPAIN MADRID</h2>
-          <p class="but">
-            But I must explain to you how all this mistaken idea of account to
-            denouncing pleasure and praising pain was account born and I account
-            will give you a complete account of the system
-          </p>
-          <form action="http://hotelfrance.com.ua/uk/" target="_blank">
-            <button class="click">BOOK NOW</button>
+
+      <header class="header">
+        <div class="header__text">
+            <h1 class="header__title">Bhromaon</h1>
+            <p class="header__description">Safe Travel Anywhere</p>
+        </div>
+        <form action="#">
+            <input type="text" id="search" name="search" placeholder="Search Your Travel Destination">
+            <label for="search">
+                <p>Search<i class="fas fa-search"></i></p>
+            </label>
+        </form>
+        <div class="header__scroll">
+          <a href="#footer">
+              <p class="header__scroll_description">Scroll Down</p>
+              <i class="header__scroll_fas fas fa-chevron-down"></i>
+            </a>
+        </div>
+      </header>
+
+      <nav class="nav">
+        <a class="nav__title"><p>Bhromaon</p></a>
+        <a><p class="nav__item">Who We Are</p></a>
+        <a><p class="nav__item">What We Do</p></a>
+        <a><p class="nav__item">Travel With Us</p></a>
+        <a><p class="nav__item">Contact Us</p></a>
+      </nav>
+
+      <section class="benefits">
+        <div class="benefits__left-block">
+            <p class="benefits__text benefits__left-block_title">Why Choose Us</p>
+            <p class="benefits__text benefits__left-block_description">Tion and dislike men who are so beguiled and demoralized by desire by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee</p>
+            <p class="benefits__text benefits__left-block_description">Ddislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that.</p>
+            <button class="benefits__left-block_button">Explore Places</button>
+        </div>
+        <div class="benefits__right-block">
+            <img class="benefits__right-block_img-1" src="./img/benefits-img1.png" alt="image" />
+            <img class="benefits__right-block_img-2" src="./img/benefits-img2.png" alt="image" />
+        </div>
+      </section>
+
+      <section class="search">
+        <div class="search__imgs">
+            <div>
+                <img src="./img/search__img_loupe.svg" alt="loupe" />
+                <p class="search__imgs_description">Search Placs</p>
+            </div>
+            <div>
+                <img src="./img/search__img_check.svg" alt="check" />
+                <p class="search__imgs_description">Select Places</p>
+            </div>
+            <div>
+                <img src="./img/search__img_thumbs-up.svg" alt="thumbs-up" />
+                <p class="search__imgs_description">Book & Enjoy</p>
+            </div>
+            <div class="search__border">
+                <img src="./img/search__border.svg" alt="">
+                <img src="./img/search__border.svg" alt="">
+            </div>
+        </div>
+      </section>
+
+      <section class="spain">
+        <div class="spain__content">
+          <h1 class="spain__content_title1">SPAIN</h1>
+          <h2 class="spain__content_title2">GRAND SPAIN MADRID</h2>
+          <p class="spain__content_description">But I must explain to you how all 
+            this mistaken idea of account to denouncing pleasure and praising 
+            pain was account born and I account will give you a complete account 
+            of the system</p>
+          <form action="https://www.booking.com/hotel/ua/francia.ru.html" target="_blank">
+            <button class="spain__content_button">BOOK NOW</button>
           </form>
         </div>
-      </div>
-      <div class="madrid">
-        <div class="mountain">
-          <h1 class="spain">SPAIN</h1>
-          <h2 class="grand">GRAND SPAIN MADRID</h2>
-          <p class="but">
-            But I must explain to you how all this mistaken idea of account to
-            denouncing pleasure and praising pain was account born and I account
-            will give you a complete account of the system
-          </p>
+      </section>
+
+      <section class="madrid">
+        <div class="madrid__content">
+          <h1 class="madrid__content_title1">SPAIN</h1>
+          <h2 class="madrid__content_title2">GRAND SPAIN MADRID</h2>
+          <p class="madrid__content_description">But I must explain to you how all this mistaken idea of 
+            account to denouncing pleasure and praising pain was account born and 
+            I account will give you a complete account of the system</p>
           <form action="https://tcb.com.ua/" target="_blank">
-            <button class="click">BOOK NOW</button>
+            <button class="madrid__content_button">BOOK NOW</button>
           </form>
         </div>
-      </div>
-      <div class="man">
-        <h1 class="man-in-adidas">What Our Tourist Say</h1>
-        <div class="tourist">
-          <img class="foto" src="./images/adidas.png" alt="man" />
-          <h2 class="grand sam">Sam Sumon</h2>
-          <p class="but sumon">
+      </section>
+
+      <section class="review">
+        <h1 class="review__title">What Our Tourist Say</h1>
+        <div class="review__content">
+          <img class="review__content_img" src="./img/review__img_adidas.png" alt="man" />
+          <h2 class="review__content_title">Sam Sumon</h2>
+          <p class="review__content_description">
             <i class="fas fa-quote-right"></i>But I must explain to you how all
             this mistaken idea of account to denouncinpleasure and praising pain
             But I must explain to you how all this mistaken idea of account to
             nai denouncing pleasure and praising pain was account born and I
             account will give you a complete account of the system was account
             born and I account will give you a nai the complete account of the
-            system
-          </p>
+            system </p>
         </div>
-      </div>
-      <footer class="bottom">
-        <h1 class="spain">BHROMAON</h1>
-        <h3 class="foot">Safe Travel Anywhere</h3>
-        <div class="container">
+      </section>
+
+      <footer class="footer" id="footer">
+        <h1 class="footer__title1">BHROMAON</h1>
+        <h3 class="footer__title2">Safe Travel Anywhere</h3>
+        <div class="footer__content">
           <a href="https://www.facebook.com/" target="_blank">
-            <i class="fab fa-facebook-f icon"></i
-          ></a>
+            <i class="fab fa-facebook-f icon"></i>
+          </a>
           <a href="https://twitter.com/" target="_blank">
-            <i class="fab fa-twitter icon"></i
-          ></a>
+            <i class="fab fa-twitter icon"></i>
+          </a>
           <a href="https://www.linkedin.com/" target="_blank">
-            <i class="fab fa-linkedin-in icon"></i
-          ></a>
+            <i class="fab fa-linkedin-in icon"></i>
+          </a>
           <a href="https://www.youtube.com/" target="_blank">
-            <i class="fab fa-youtube icon"></i
-          ></a>
+            <i class="fab fa-youtube icon"></i>
+          </a>
           <a href="https://www.pinterest.com/" target="_blank">
-            <i class="fab fa-pinterest icon"></i
-          ></a>
+            <i class="fab fa-pinterest icon"></i>
+          </a>
         </div>
       </footer>
+
     </div>
+
   </body>
 </html>

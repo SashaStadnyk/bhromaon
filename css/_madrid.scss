@@ -1,0 +1,31 @@
+.madrid {
+    background-image: url("../img/madrid-background.png");
+    height: 700px;
+    width: 1770px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-position: center;
+    background-size: cover;
+
+    .madrid__content {
+        display: block;
+        color: white;
+        background-color: #232323;
+        opacity: 0.9;
+        width: 540px;
+        height: 371px;
+        padding: 15px;
+        margin-right: 330px;
+        margin-bottom: 100px;
+     
+        .madrid__content_button {
+            background: rgba(84, 116, 253, 1);
+            height: 60px;
+            width: 225px;
+            font-size: 30px;
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="97" viewBox="0 0 400 97">
+<defs>
+<clipPath id="4tyoa">
+<path fill="#fff" d="M1 96s192-212 393 0c0 "/>
+</clipPath>
+</defs>
+<g><g opacity=".5">
+<path fill="none" stroke="#fff" stroke-dasharray="0 5" stroke-linecap="round" stroke-miterlimit="20" stroke-width="2" 
+d="M1 96v0s192-212 393 0c0 " clip-path="url(&quot;#4tyoa&quot;)"/>
+</g></g>
+</svg>

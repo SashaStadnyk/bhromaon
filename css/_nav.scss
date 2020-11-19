@@ -1,0 +1,18 @@
+.nav {
+    @include sectionCommonStyles(row, space-evenly, center);
+    text-transform: uppercase;
+    background-color: $headerFormColor;
+    color: $headerMainColor;
+    font-size: 14px;
+    font-family: $sectionMainFont;
+
+
+    .nav__title {
+        margin: 0 15%;
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 2.4px;
+        text-transform: uppercase;
+        font-family: $headerFont;
+    }
+} 
