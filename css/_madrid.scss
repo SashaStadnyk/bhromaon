@@ -19,13 +19,29 @@
         padding: 15px;
         margin-right: 330px;
         margin-bottom: 100px;
-     
+        .madrid__content_title1, .madrid__content_title2{
+            padding: 15px;
+            margin: 0;
+        }
+        .madrid__content_description{
+            font-size: 18px;
+            line-height: 30px;
+            padding: 15px;
+        }
+        
         .madrid__content_button {
             background: rgba(84, 116, 253, 1);
             height: 60px;
             width: 225px;
             font-size: 30px;
-            color: white;
+            color: white; 
+            font-family: 'Aleo';
+            font-size: 20px;  
+            
+        }
+        .madrid__content_button:hover {
+            font-family: 'Aleo';
+            font-size: 20px;  
         }
     }
 }

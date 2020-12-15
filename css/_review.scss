@@ -1,37 +1,56 @@
 .review {
-    background-image: url("../img/review-background.png");
-    height: 700px;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-image: url("../img/review-background.png");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  background-size: cover;
+  width: 1770px;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  font-family: "Aleo", "serif";
+
+  .review__title {
+    color: white;
+    font-family: "Aleo", serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 36px;
+  }
+
+  .review__content {
+    display: block;
+    color: white;
+    background-color: #232323;
+    opacity: 0.9;
+    width: 1115px;
+    height: 284px;
     display: flex;
-    background-size: cover;
-    width: 1770px;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    font-family: "Aleo", "serif";
-    
-    .review__content {
-        display: block;
-        color: white;
-        background-color: #232323;
-        opacity: 0.9;
-        width: 1115px;
-        height: 284px;
-        margin-right: 330px;
-        margin-top: 247px;
-        display: flex;
-       
-        .review__content_img {
-            display: flex;
+
+    .review__content_img {
+      display: flex;
+    }
+
+    .review__content_text {
+      @include sectionCommonStyles(column, space-evenly, baseline);
+      margin-left: 25px;
+      font-size: 20px;
+
+      .conreview__tent_title {
+        position: inherit;
+        right: 220px;
+      }
+
+      .review__content_description {
+        text-indent: 5px;
+
+        .fa-quote-right {
+          color: blueviolet;
+          position: relative;
+          top: -20px;
         }
+      }
     }
-    .review__title {
-        color: white;
-        font-family: "Aleo", serif;
-        font-weight: 300;
-        text-align: center;
-    }
-    
-    
+  }
 }

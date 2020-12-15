@@ -1,57 +1,46 @@
 .spain {
-    @include sectionCommonStyles(column, flex-start, center);
+  @include sectionCommonStyles(column, flex-start, baseline);
 
-    background-image: url("../img/spain-background.png");
-    height: 700px;
-    width: 1770px;
-    // display: flex;
-    // justify-content: flex-start;
-    // background-repeat: no-repeat;
-    // background-size: cover;
-    // background-position: center;
+  background-image: url("../img/spain-background.png");
+  height: 700px;
+  width: 1770px;
 
-    .spain__content {
-        color: white;
-        background-color: $spainContentColor;
-        opacity: 0.9;
-        width: 540px;
-        height: 371px;
-        padding: 15px;
-        display: flex;
-        flex-direction: column;
-        margin-left: 330px;
-        margin-top: 229px;
+  .spain__content {
+    color: white;
+    background-color: $spainContentColor;
+    opacity: 0.9;
+    width: 540px;
+    height: 371px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 330px;
+    margin-top: 229px;
 
-        .spain__content_title1 {
-            font-family: $sectionMainFont;
-            margin: 0;
-            font-weight: 300;
-            padding: 15px;
-          }
-          
-          .spain__content_title2 {
-            font-family: $sectionMainFont;
-            font-weight: 300;
-            padding: 15px;
-          }
-          
-          .spain__content_description {
-            font-size: 17px;
-            font-family: $sectionMainFont;
-            line-height: 30px;
-          }
-          
-          .spain__content_button {
-            background: rgba(84, 116, 253, 1);
-            height: 60px;
-            width: 225px;
-            font-size: 30px;
-            color: white;
-          }
-          .spain__content_button:hover {
-            background-color: $sectionBenefitsButton;
-          } 
-        }
+    .spain__content_title1,.spain__content_title2 {
+      margin: 0;
+      padding: 15px;
+    }
 
+   
 
+    .spain__content_description {
+      font-size: 17px;
+      line-height: 30px;
+      padding: 15px;
+    }
+
+    .spain__content_button {
+      background: rgba(84, 116, 253, 1);
+      height: 60px;
+      width: 225px;
+      font-size: 30px;
+      color: white;
+      font-family: 'Aleo';
+      font-size: 20px;
+    }
+    .spain__content_button:hover {
+      background-color: $buttonColor;
+    }
   }
+}
